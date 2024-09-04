@@ -49,6 +49,15 @@ def change_char_to_nchar(content: str):
     return modified_content, matches
 
 def process_file(filepath: str):
+	"""
+	Process the file located at the given filepath.
+	Args:
+		filepath (str): The path to the file to be processed.
+	Returns:
+		None
+	Raises:
+		FileNotFoundError: If the file does not exist.
+	"""
 	with open(filepath, 'r') as file:
 		content = file.read()
 
