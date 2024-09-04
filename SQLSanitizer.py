@@ -12,8 +12,6 @@ def display_ascii_art():
     
 	""")
 
-import os
-
 def get_directory():
 	while True:
 		directory = input("Please enter the directory containing T-SQL files: ")
